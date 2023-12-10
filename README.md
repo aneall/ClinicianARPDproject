@@ -38,7 +38,7 @@ add info here
       3. Choose the local path where you want the repository to be cloned
 
 2. **Install Git LFS**
-   1. _with CLI:_
+   1. **with CLI:**
       1. In the project (repository)'s root directory, run `git lfs install`
          1. _If there are specific large file types tracked, they should be automatically handled by the `.gitattributes` file in the repository_
    2. **with GitHub Desktop**:
@@ -58,3 +58,6 @@ add info here
 ## Contact Information
 Ashley Neall
 - aneall@unc.edu
+
+Pranav Wagh
+- 
