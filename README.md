@@ -56,8 +56,7 @@ add info here
     - rigging with [Mixamo](https://www.mixamo.com/#/)
 
 ## Contact Information
-Ashley Neall
+### Ashley Neall
 - aneall@unc.edu
-
-Pranav Wagh
+### Pranav Wagh
 - 
