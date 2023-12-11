@@ -8,6 +8,7 @@
 ### Development Tools Used
 - Unity Editor 2022.3.11f1
     - Android build support (for Quest 2, 3, and Pro)
+    - Animation Rigging package
 - Oculus Interaction SDK (OVR)
 - Blender
 - Mixamo
@@ -51,10 +52,12 @@
 
 ## Acknowledgments
 [Original 'Human skeleton' Mesh, Texture, and Annotations](https://sketchfab.com/3d-models/human-skeleton-23a06a148f9145769e822e74fe6b72fc)
-- We altered this model to fit our project needs. Alterations include:
+- I altered this model to fit my project needs (i.e. standalone Quest 3 hardware). Alterations include:
     - decimating polycount
     - reducing texture resolution
     - rigging with [Mixamo](https://www.mixamo.com/#/)
+
+- The Procedural Walking Script (IKFootSolver.cs) was created by following [Unity's Procedural Walking Tutorial](https://www.youtube.com/watch?v=acMK93A-FSY) and adding a rotation offset variable!
 
 ## Contact Information
 ### Ashley Neall
