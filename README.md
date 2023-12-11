@@ -1,8 +1,9 @@
 # ClinicianARPD
- Ashley and Pranav's COMP 590 (3D Graphics + VR) Final Project
+ Ashleyv's COMP 590 (3D Graphics + VR) Final Project Prototype
 
 ## About ClinicianARPD
-add info here
+#### ClinicianARPD is a sandbox prototype for implementing MR manipulation of humanoid models for clinical users. This is the first prototype of my project, using OVR.
+#### I've since pivoted to using OpenXR, so I'm no longer working in this repo :)
 
 ### Development Tools Used
 - Unity Editor 2022.3.11f1
@@ -58,5 +59,3 @@ add info here
 ## Contact Information
 ### Ashley Neall
 - aneall@unc.edu
-### Pranav Wagh
-- 
