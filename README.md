@@ -1,5 +1,5 @@
 # ClinicianARPD
- Ashleyv's COMP 590 (3D Graphics + VR) Final Project Prototype
+ Ashley's COMP 590 (3D Graphics + VR) Final Project Prototype
 
 ## About ClinicianARPD
 #### ClinicianARPD is a sandbox prototype for implementing MR manipulation of humanoid models for clinical users. This is the first prototype of my project, using OVR.
