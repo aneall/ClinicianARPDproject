@@ -2,19 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// this script will enable us to control the target (foot position) so that each foot (Right and Left) are always in contact with a mesh surface (e.g. Plane)
-// to add this script as a component, we must select BOTH the right and left leg TARGETs (bc we're using both legs!)
+// Created by Ashley Neall, using Unity's Procedural Walking Tutorial
 
-// TODO: figure out how to make contact w a MR (quest passthrough) object in a room and identify this as the mesh surface
-// ^^ this is a stretch goal, bc for now I can just use a plane
+// This script will enable us to control the target (foot position) so that each foot (Right and Left) are always in contact with a mesh surface (e.g. Plane)
+// To add this script as a component, we must select BOTH the right and left leg TARGETs (bc we're using both legs!)
 
-// TODO: offset the initial position of each foot so that they don't move at the same time
-// ^^ this is a stretch goal, bc we don't need the skeleton walking as an MVP for our demo (we just need it standing correctly)
+// Stretch Goal 1: offset the initial position of each foot so that they don't move at the same time
 
 public class IKFootSolver : MonoBehaviour
 {
     // global variables:
-    // TODO: CHANGE AMOUNTS FOR VARIABLES BASED ON HUMANOID SCALE:
+    // you'll need to change the values below based on the scale of your rigged model:
     [SerializeField] LayerMask terrainLayer = default;
     [SerializeField] Transform body = default;
     [SerializeField] IKFootSolver otherFoot = default;
